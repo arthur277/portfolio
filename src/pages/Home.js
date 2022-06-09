@@ -9,9 +9,9 @@ const Home = () => {
             <div className="homeContent">
                 <div className="content">
                     <h1>Arthur Deumeni</h1>
-                    <h2>Developpeur front-end</h2>
+                    <h2>Developpeur front-end et back-end</h2>
                     <div className="pdf">
-                        <a href="./media/CVv3.pdf" target="_blank">Télécharger CV</a>
+                        <a href="./media/CV Arthur D T.pdf" target="_blank">Télécharger CV</a>
                     </div>
                 </div>
             </div>

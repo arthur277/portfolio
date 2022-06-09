@@ -6,8 +6,9 @@ const Navigation = () => {
         <div className='sidebar'>
             <div className="id">
                 <div className="idcontent">
-                    <img src="./media/arthurcv.jpg" alt="profil-pic" />
-                    <h3>Arthur Deumeni</h3>
+                    <img src="./media/hi2.jpg" alt="profil-pic" />
+                    <h3 className="hi">Arthur Deumeni</h3> <br />
+                    <p className="hi1">-Organisé <br /> -Diynamique <br /> -Polyvalent <br /> -Respectueux</p>
                 </div>
             </div>
             <div className="navigation">
@@ -18,7 +19,7 @@ const Navigation = () => {
                             <span>Accueil</span>
                         </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink exact to="/competences" activeclassName="navActive">
                             <i className="fas fa-mountain"></i>
                             <span>Competences</span>
@@ -29,7 +30,7 @@ const Navigation = () => {
                             <i className="fas fa-images"></i>
                             <span>Portfolio</span>
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li>
                         <NavLink exact to="/contact" activeclassName="navActive">
                             <i className="fas fa-check"></i>
